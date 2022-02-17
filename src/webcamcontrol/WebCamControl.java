@@ -95,7 +95,7 @@ public class WebCamControl {
                 //detectAndDecode​(img);
             }
             try {
-                Thread.sleep(40); //10 кадров в секунду
+                Thread.sleep(40); //25 кадров в секунду
             } catch (InterruptedException e) {}
         } else {
             System.out.println("Не удалось захватить кадр");
